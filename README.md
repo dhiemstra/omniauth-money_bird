@@ -1,16 +1,16 @@
 # OmniAuth OAuth2
 
-[![Gem Version](http://img.shields.io/gem/v/omniauth-oauth2.svg)][gem]
-[![Build Status](http://img.shields.io/travis/intridea/omniauth-oauth2.svg)][travis]
-[![Dependency Status](http://img.shields.io/gemnasium/intridea/omniauth-oauth2.svg)][gemnasium]
-[![Code Climate](http://img.shields.io/codeclimate/github/intridea/omniauth-oauth2.svg)][codeclimate]
-[![Coverage Status](http://img.shields.io/coveralls/intridea/omniauth-oauth2.svg)][coveralls]
+[![Gem Version](http://img.shields.io/gem/v/omniauth-money_bird.svg)][gem]
+[![Build Status](http://img.shields.io/travis/intridea/omniauth-money_bird.svg)][travis]
+[![Dependency Status](http://img.shields.io/gemnasium/intridea/omniauth-money_bird.svg)][gemnasium]
+[![Code Climate](http://img.shields.io/codeclimate/github/intridea/omniauth-money_bird.svg)][codeclimate]
+[![Coverage Status](http://img.shields.io/coveralls/intridea/omniauth-money_bird.svg)][coveralls]
 
-[gem]: https://rubygems.org/gems/omniauth-oauth2
-[travis]: http://travis-ci.org/intridea/omniauth-oauth2
-[gemnasium]: https://gemnasium.com/intridea/omniauth-oauth2
-[codeclimate]: https://codeclimate.com/github/intridea/omniauth-oauth2
-[coveralls]: https://coveralls.io/r/intridea/omniauth-oauth2
+[gem]: https://rubygems.org/gems/omniauth-money_bird
+[travis]: http://travis-ci.org/intridea/omniauth-money_bird
+[gemnasium]: https://gemnasium.com/intridea/omniauth-money_bird
+[codeclimate]: https://codeclimate.com/github/intridea/omniauth-money_bird
+[coveralls]: https://coveralls.io/r/intridea/omniauth-money_bird
 
 This gem contains a generic OAuth2 strategy for OmniAuth. It is meant to serve
 as a building block strategy for other strategies and not to be used
@@ -22,7 +22,7 @@ To create an OmniAuth OAuth2 strategy using this gem, you can simply subclass
 it and add a few extra methods like so:
 
 ```ruby
-require 'omniauth-oauth2'
+require 'omniauth-money_bird'
 
 module OmniAuth
   module Strategies
@@ -64,4 +64,4 @@ end
 
 That's pretty much it!
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/intridea/omniauth-oauth2/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/intridea/omniauth-money_bird/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
