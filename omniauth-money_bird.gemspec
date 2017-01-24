@@ -5,7 +5,7 @@ require "omniauth/money_bird/version"
 Gem::Specification.new do |gem|
   gem.add_dependency "oauth2",     "~> 1.0"
   gem.add_dependency 'omniauth', '~> 1.0'
-  gem.add_dependency 'omniauth-oauth2', '~> 1.0'
+  gem.add_dependency 'omniauth-oauth2', '~> 1.3.1'
 
   gem.add_development_dependency "bundler", "~> 1.0"
 
